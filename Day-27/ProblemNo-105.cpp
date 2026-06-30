@@ -11,11 +11,10 @@ int main() {
 
     cout << "Student Record Management System" << endl;
 
-    // Input Student Details
     cout << "Enter Roll Number: ";
     cin >> rollNo;
 
-    cin.ignore(); // Ignore newline character
+    cin.ignore(); 
     cout << "Enter Student Name: ";
     getline(cin, name);
 
@@ -28,11 +27,11 @@ int main() {
     cout << "Enter Marks in Subject 3: ";
     cin >> marks3;
 
-    // Calculate Total and Percentage
+    
     total = marks1 + marks2 + marks3;
     percentage = total / 3;
 
-    // Assign Grade
+    
     if (percentage >= 90)
         grade = 'A';
     else if (percentage >= 75)
@@ -44,7 +43,7 @@ int main() {
     else
         grade = 'F';
 
-    // Display Student Record
+    
     cout << "Student Record" << endl;
     cout << "Roll Number : " << rollNo << endl;
     cout << "Name        : " << name << endl;
