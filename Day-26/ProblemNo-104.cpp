@@ -6,8 +6,7 @@ int main()
 {
     int score = 0;
     char answer;
-
-    cout << "===== Simple Quiz Application =====\n";
+    cout << "Simple Quiz Application\n";
 
     // Question 1
     cout << "\n1. What is the capital of India?\n";
